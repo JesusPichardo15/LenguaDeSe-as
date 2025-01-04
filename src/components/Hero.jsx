@@ -16,9 +16,9 @@ const Hero = () => {
         <img src={TERMINO_CONTENT.image} alt="Termino correcto" className="w-full md:w-1/2 rounded shadow-lg border-2 border-yellow-300" />
       </div>
       <div className="flex flex-col md:flex-row items-center mb-8">
-        <img src={NIVELES_CONTENT.image} alt="Niveles de audición" className="w-full md:w-1/2 rounded shadow-lg border-2 border-pink-300" />
-        <div className="flex-1 pl-4">
-          <h1 className="text-2xl font-bold text -gray-800">{NIVELES_CONTENT.title}</h1>
+        <img src={NIVELES_CONTENT.image} alt="Niveles de audición" className="w-full md:w-1/2 rounded shadow-lg border-2 border-pink-300 md:mr-4" />
+        <div className="flex-1">
+          <h1 className="text-2xl font-bold text-gray-800">{NIVELES_CONTENT.title}</h1>
           <p className="text-gray-600 mt-2">{NIVELES_CONTENT.content}</p>
         </div>
       </div>
