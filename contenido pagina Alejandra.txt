@@ -1,0 +1,35 @@
+contenido pagina Alejandra
+Principal: 
+	-Que es lsm?
+	-Mitos y Realidades sobre las personas sordas
+	-Terminos correctos para referirse a personas con 	discapacidad
+
+pestañas:
+	-colores
+	-numeros 
+	-saludos
+	-estaciones
+	-animales
+	-abecedario
+	-material escolar
+	-algunas acciones
+
+Paleta de colores: 
+	#febe0f
+	#ffa4bf
+	#fe6622
+	#4580b2
+	#00a56b
+
+paginas del pdf contenido: 
+	*-colores: 120-123
+	-numeros: imagen
+	-saludos: 94
+	-estaciones: 92
+	-animales: 48-62
+	-abecedario: 15-19
+	-material escolar: 131-134
+	-algunas acciones: imagen
+	-tiempo: 93
+	-fecha: 89-90
+
