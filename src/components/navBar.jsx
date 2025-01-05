@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -16,7 +18,7 @@ const NavBar = () => {
         className="md:hidden text-lg font-medium py-2 px-4 rounded transition duration-300 cursor-pointer border-b-4 border-transparent hover:border-blue-500"
         onClick={toggleMenu}
       >
-        {isOpen ? 'Cerrar Menú' : 'Abrir Menú'}
+        <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
       </button>
       <ul className={`flex flex-wrap justify-center space-x-8 mt-4 ${isOpen ? 'block' : 'hidden md:flex'}`}>
         {[
